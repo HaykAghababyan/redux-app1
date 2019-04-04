@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import { user } from './user'
-import { car } from './user'
+import { loginReducer } from '../../components/Form/reducers'
+
 export default combineReducers({
-    user,car
+    loginReducer
 })
